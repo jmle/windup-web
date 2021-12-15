@@ -10,12 +10,7 @@
         <repository>
           <id>sonatype-snapshots-repo</id>
           <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-          <releases>
-            <enabled>false</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
+          <layout>default</layout>
         </repository>
         <repository>
           <id>jboss-public-repository-group</id>
@@ -40,7 +35,7 @@
       </pluginRepositories>
     </profile>
   </profiles>
-    <activeProfiles>
-       <activeProfile>jboss-public-repository</activeProfile>
-    </activeProfiles>
+  <activeProfiles>
+     <activeProfile>jboss-public-repository</activeProfile>
+  </activeProfiles>
 </settings>
